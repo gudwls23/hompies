@@ -55,7 +55,7 @@
 
 .members {
 	/*width: 83px;*/
-	height: 55px;
+	height: 35px;
 	font-family: NotoSansCJKkr-Demi;
 	font-size: 15px;
 	font-weight: 300;
@@ -65,6 +65,7 @@
 	letter-spacing: normal;
 	text-align: center;
 	color: #000000;
+	margin-bottom: 0px;
 }
 
 .profile {
