@@ -14,15 +14,17 @@
 
 }*/
 
-.container {
-  max-width: 1440px;
+.container3 {
+  max-width: 1224px;
+	align-items: center;
   margin: 11% 5% 11% 5%;
+	padding: 0% 10%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .greeting {
-	/*width: 559px;*/
+	max-width: 1224px;
 	height: 20px;
 	font-family: NotoSansCJKkr;
 	font-size: 20px;
@@ -45,12 +47,23 @@
 	font-weight: 300;
 }
 
-.profpic {
+img.profpic {
 	width: 155px;
 	height: 155px;
   /*max-width: 20%;*/
   /*margin: 30% 30% 0px 30%;*/
   border-radius: 50%;
+	filter: grayscale(100%);
+	/*filter: url(desaturate.svg#greyscale);*/
+}
+
+img.profpic:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+	-webkit-transform: scale(1.1);
+			 -moz-transform: scale(1.1);
+				 -o-transform: scale(1.1);
+				transform: scale(1.1);
 }
 
 .members {
@@ -66,10 +79,11 @@
 	text-align: center;
 	color: #000000;
 	margin-bottom: 0px;
+	margin-top: 15px;
 }
 
 .profile {
-  max-width: 20%;
+  max-width: 25%;
 	padding-left: 3%;
 	padding-right: 3%;
 	border: solid rgba(150, 150, 150, 0.53);
