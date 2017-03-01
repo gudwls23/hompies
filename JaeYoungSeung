@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="parent">Left
+      <div class="left">
+        <img src="./app/style_asset/ucla_bg.jpg" alt="UCLA RoyceHall Pic" rel="stylesheet">
+      </div>
+      <div class="right">Right
+      <h1>Hack Your Life</h1>
+      </div>
+    </div>
+  </body>
+</html>
