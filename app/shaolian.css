@@ -1,22 +1,12 @@
 .shaolian{
-  /*max-width: 100%;*/
   width: 100%;
   color: #ffffff;
 }
 .background  {
   background-repeat:no-repeat;
   background-position:50% 50%;
-    background-position:50% 50%;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    /*background-position: center center;*/
+  background-size:     cover;
 }
-/* fullscreen setup */
-html, body {
-    /* give this to all tags from html to .fullscreen */
-    height:100%;
-}
-
 
 .border {
   border: 1px solid;
@@ -24,11 +14,10 @@ html, body {
 
 a, a:hover, a:active, a:visited {
     text-decoration:none;
-    /*color: #ffffff;*/
+    color: #ffffff;
 }
 
 .hack-your-life{
-  padding: 20% 15% 35%;
   font-family: Montserrat;
   font-size: 25px;
   font-weight: bold;
@@ -41,20 +30,20 @@ a, a:hover, a:active, a:visited {
 }
 
 .cardblock-contactus{
-  /*width: 200px;*/
-  height: 77px;
+  height: 47px;
   border-radius: 23.5px;
+   text-align: center;
+   margin: 10%;
+   width: 30%;
+   line-height: 45px;
+   font-family: AppleSDGothicNeo;
+   font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
 }
-.cardblock-contactus-text{
- height: 41px;
- font-family: AppleSDGothicNeo;
- font-size: 18px;
- font-weight: normal;
- font-style: normal;
- font-stretch: normal;
- line-height: normal;
- letter-spacing: normal;
- text-align: center;
- color: #000000;
- text-decoration: none;
+.white-button{
+  color: #0085c3;
+  background-color: #fff;
 }
