@@ -4,8 +4,9 @@
 }
 .background  {
   background-repeat:no-repeat;
-  background-position:50% 50%;
+  background-position:50% 70%;
   background-size:     cover;
+  padding-bottom: 50%
 }
 
 .border {
@@ -13,8 +14,8 @@
 }
 
 a, a:hover, a:active, a:visited {
-    text-decoration:none;
-    color: #ffffff;
+  text-decoration:none;
+  color: #ffffff;
 }
 
 .hack-your-life{
@@ -32,12 +33,12 @@ a, a:hover, a:active, a:visited {
 .cardblock-contactus{
   height: 47px;
   border-radius: 23.5px;
-   text-align: center;
-   margin: 10%;
-   width: 30%;
-   line-height: 45px;
-   font-family: AppleSDGothicNeo;
-   font-size: 18px;
+  text-align: center;
+  margin: 10%;
+  width: 30%;
+  line-height: 45px;
+  font-family: AppleSDGothicNeo;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
