@@ -1,0 +1,50 @@
+.shaolian{
+  width: 100%;
+  color: #ffffff;
+}
+.background  {
+  background-repeat:no-repeat;
+  background-position:50% 70%;
+  background-size:     cover;
+  padding-bottom: 50%
+}
+
+.border {
+  border: 1px solid;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.hack-your-life{
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 10%;
+}
+
+.cardblock-contactus{
+  height: 47px;
+  border-radius: 23.5px;
+  text-align: center;
+  margin: 10%;
+  width: 30%;
+  line-height: 45px;
+  font-family: AppleSDGothicNeo;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+.white-button{
+  color: #0085c3;
+  background-color: #fff;
+}
