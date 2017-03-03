@@ -104,3 +104,7 @@ img.profpic:hover {
 	display: block;
 	padding-top: 5%;
 }
+
+.navbar {
+	margin-bottom: 0;
+}
