@@ -1,0 +1,104 @@
+.shaolian{
+  width: 100%;
+  color: #ffffff;
+}
+.background  {
+  background-repeat:no-repeat;
+  background-position:50% 70%;
+  background-size:     cover;
+  padding-bottom: 52%
+}
+
+.border {
+  border: 1px solid;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.hacker-box{
+  top:166px;
+  left:35%;
+  margin-bottom:8%;
+}
+
+.hack-your-life{
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 10% 10% 30% 10%;
+}
+
+.cardblock-contactus{
+  padding-left: 8px;
+  height: 47px;
+  border-radius: 23.5px;
+  text-align: center;
+  margin: 10%;
+  width: 30%;
+  min-width: 90px;
+  line-height: 45px;
+  font-family: AppleSDGothicNeo;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+.white-button{
+  padding-left: 15px;
+  color: #0085c3;
+  background-color: #fff;
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+  .background  {
+    padding-bottom: 70%
+  }
+
+  .hacker-box{
+    width:35%;
+    top:166px;
+    left:35%;
+    margin-bottom:8%;
+  }
+
+}
+
+@media only screen and (min-width : 481px) and (max-width : 767px)  {
+
+  .background  {
+    padding-bottom: 45%
+  }
+
+  .hacker-box{
+    width:46%;
+    top:140px;
+    left:27%;
+    margin-bottom:8%;
+  }
+
+}
+
+@media only screen and (max-width : 480px)  {
+
+  .background  {
+    padding-bottom: 45%
+  }
+
+  .hacker-box{
+    width:80%;
+    top:100px;
+    left:10%;
+    margin-bottom:8%;
+  }
+
+}

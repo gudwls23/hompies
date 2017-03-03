@@ -1,0 +1,8 @@
+### node etc ###
+
+node_modules/
+.DS_Store
+.env
+
+package.json
+server/
