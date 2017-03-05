@@ -58,6 +58,18 @@ a, a:hover, a:active, a:visited {
   background-color: #fff;
 }
 
+@media only screen and (min-width : 1025px) and (max-width : 1223px){
+  .hack-your-life{
+    padding-bottom: 7%;
+  }
+
+  .cardblock-contactus{
+    min-width: 100px;
+    margin: 0 10px 10% 15px;
+  }
+
+}
+
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
 
   .background  {

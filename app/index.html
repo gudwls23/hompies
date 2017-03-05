@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8"/>
     <meta nam="viewpoint" content="width=device-width,initial-scale=1"/>
+    <meta name="description" content="">
     <title>
         likeLion at UCLA
     </title>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
     <link href="jeehae.css" rel="stylesheet" />
     <link href="thirdpage.css" rel="stylesheet">
@@ -58,10 +59,10 @@
     <section class="jaeyoung" id="landing" style="max-width:100%;">
         <div class="UCLA">
             <p class="hack">
-                <b class="text-uppercase" style="color:#0085c3;">Hack Your Life</b></p>
+                <b class="text-uppercase bounceIn">Hack Your Life</b></p>
             <div class="box"> <img src="./style_asset/rectangle-2.png" alt="picture" rel="stylesheet"></div>
             <div class="box2"><img src="./style_asset/rectangle-4-copy-6.png" alt="picture" rel="stylesheet"></div>
-            <img class="royce" src="./style_asset/ucla-bg.jpg" alt="Royce Hall">
+            <img class="royce fadeInLeft" src="./style_asset/ucla-bg.jpg" alt="Royce Hall">
             <div class="UCLA1">
                 <div id="title" style="position:absolute; width: 100%; height: 100%">
                     <img src="./style_asset/title.png" alt="UCLA title" rel="stylesheet"></div>
@@ -297,12 +298,10 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
             $('.navbar-right:first li').hover(function() {
-                console.log('hi');
                 $(this).addClass('active');
             });
             $('.navbar-right:first li').mouseleave(function() {
