@@ -15,15 +15,18 @@
 }*/
 
 .container3 {
-  max-width: 1224px;
+  max-width: 1146px;
 	align-items: center;
-  margin: 11% 5% 11% 5%;
+  margin: 11%;
 	padding: 0% 10%;
   display: flex;
   flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .greeting {
+  margin: 0 auto;
 	max-width: 1224px;
 	height: 20px;
 	font-family: NotoSansCJKkr;
@@ -107,4 +110,8 @@ img.profpic:hover {
 
 .navbar {
 	margin-bottom: 0;
+}
+
+.navbar-right {
+  padding-right: 6%;
 }

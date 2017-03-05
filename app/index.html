@@ -39,12 +39,13 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form> -->
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" style="color:black"> Likelion @ <span style="color:#0085c3">UCLA</span> </a></li>
+                    <li><a href="#landing" style="color:black"> Likelion @ <span style="color:#0085c3">UCLA</span> </a></li>
+                    <li><a href="#whatwedo" style="color:black"> What We Do </a></li>
                     <li><a href="#section3" style="color:black"> Members </a></li>
-                    <li class="active"><a href="#" style="color:black"> APPLY <span class="sr-only">(current)</span></a></li>
-                    <li>
+                    <li><a href="#apply" style="color:black"> APPLY <span class="sr-only">(current)</span></a></li>
+                    <!-- <li>
                         <a href="https://www.facebook.com/likelion.uc/"> <span style="color:#3b5998"> facebook </span></a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -52,10 +53,10 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- <h1> MEMBERS </h1> -->
-    <section class="jaeyoung">
+    <section class="jaeyoung" id="landing">
         <div class="UCLA">
             <p class="hack">
-                <b style="color:#0085c3;">Hack Your Life</b></p>
+                <b class="text-uppercase" style="color:#0085c3;">Hack Your Life</b></p>
             <div class="box"> <img src="./style_asset/rectangle-2.png" alt="picture" rel="stylesheet"></div>
             <div class="box2"><img src="./style_asset/rectangle-4-copy-6.png" alt="picture" rel="stylesheet"></div>
             <img class="box3" src="./style_asset/ucla-bg.jpg" alt="picture" rel="stylesheet">
@@ -69,13 +70,13 @@
                     <br /> 원하는 IT 서비스를 직접 런칭합니다</p>
 
                 <div class="apply">
-                    <p class="application"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeVv2GN0hNYL3WwwpMSSu89GdNP91K23qSCCAhbGXyReqqRbA/viewform?c=0&w=1">지원하기</a></p>
+                    <p class="application text-uppercase"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeVv2GN0hNYL3WwwpMSSu89GdNP91K23qSCCAhbGXyReqqRbA/viewform?c=0&w=1">apply</a></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="jeehae">
+    <section class="jeehae" id="whatwedo">
         <div class="row">
             <div style="text-align: center; padding: 70px;">
                 <img src="style_asset/title2.png" alt="likeLion logo" />
@@ -231,7 +232,7 @@
         </p>
     </div>
 
-    <section class="shaolian">
+    <section class="shaolian" id="apply">
         <div class="fullscreen background" style="background-image:url(style_asset/bg_2.png);">
             <div class="col-md-3 border hacker-box">
                 <div class="row">
@@ -284,9 +285,9 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form> -->
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" style="color:#f5a200"> Likelion </a></li>
-                    <li>
-                        <a href="https://www.facebook.com/likelion.uc/"> <span style="color:#3b5998; margin-right: 100px;"> facebook </span></a>
+                    <li><a href="http://www.likelion.org" style="color:#f5a200"> Likelion HQ</a></li>
+                    <li style="max-width: 70px;">
+                        <a href="https://www.facebook.com/likelion.uc/"> <span style="color:#3b5998; margin-right: 100px; "> facebook </span></a>
                     </li>
                 </ul>
             </div>
@@ -297,18 +298,27 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
-        $('a[href*="#"]:not([href="#"])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
+    $(document).ready(function () {
+      $('.navbar-right:first li').hover(function () {
+        console.log('hi');
+          $(this).addClass('active');
+      });
+      $('.navbar-right:first li').mouseleave(function () {
+          $(this).removeClass('active');
+      });
+      $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+              if (target.length) {
+                  $('html, body').animate({
+                      scrollTop: target.offset().top
+                  }, 1000);
+                  return false;
+              }
+          }
+      });
+    });
     </script>
 </body>
 
