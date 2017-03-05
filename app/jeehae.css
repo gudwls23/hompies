@@ -18,7 +18,7 @@
 
 .list-group-item > div > p{
   margin: 3px;
-  font-family: Lato;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -42,7 +42,7 @@
 }
 
 .card-title{
-  font-family: NotoSansCJKkr;
+  font-family: NotoSansCJKkr,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -54,7 +54,7 @@
 }
 
 .card-text{
-  font-family: Lato;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
