@@ -1,32 +1,19 @@
-/*h1 {
-	width: 100%;
-	height: 35px;
-	font-family: Gotham;
-	font-size: 40px;
-	font-weight: bold;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
-	color: #000000;
-  margin-bottom: 73px;
-
-}*/
-
 .container3 {
-  max-width: 1224px;
+  max-width: 1146px;
 	align-items: center;
-  margin: 11% 5% 11% 5%;
-	padding: 0% 10%;
+  margin: 11%;
+	padding: 0% 10% 2%;
   display: flex;
   flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .greeting {
+  margin: 0 auto;
 	max-width: 1224px;
 	height: 20px;
-	font-family: NotoSansCJKkr;
+	font-family: NotoSansCJKkr,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	font-style: normal;
@@ -43,7 +30,7 @@
 }
 
 .text-style-2 {
-	font-family: NotoSansCJKkr-Demi;
+	font-family: NotoSansCJKkr-Demi,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 300;
 	letter-spacing: normal;
 }
@@ -74,7 +61,7 @@ img.profpic:hover {
 .members {
 	/*width: 83px;*/
 	height: 35px;
-	font-family: NotoSansCJKkr-Demi;
+	font-family: NotoSansCJKkr-Demi,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	font-style: normal;
@@ -107,4 +94,8 @@ img.profpic:hover {
 
 .navbar {
 	margin-bottom: 0;
+}
+
+.navbar-right {
+  padding-right: 6%;
 }
